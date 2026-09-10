@@ -1,0 +1,54 @@
+.navbar-nav .nav-item .nav-link {
+    color: white;
+}
+
+.navbar-nav {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.container-fluid {
+    text-align: left;
+}
+
+.principal {
+    height: 500px;
+    background-image: url(/img/muchacha.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-start;
+    padding-top: 20px;
+    padding-left: 50px;
+}
+
+#text {
+    text-align: left;
+}
+
+.secundaria {
+    height: 300px;
+    display: flex;
+    align-items: center;
+}
+
+.card-text {
+    color: rgba(71, 71, 244, 0.785);
+}
+
+.card {
+    align-items: center;
+    display: flex;
+}
+
+#card-recursos {
+    justify-content: center;
+    display: flex;
+}
+
+#novedades {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

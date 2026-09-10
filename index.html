@@ -1,0 +1,356 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BiblioCECAR</title>
+    <link rel="stylesheet" href="/style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar bg-body-tertiary">
+        <div class="container-fluid">
+          <img
+            src="/img/icon.png"
+            alt="BiblioCECAR Logo"
+            class="navbar-brand"
+            style="height: 90px"
+          />
+          <form class="d-flex" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button
+              class="btnL btn-outline-success"
+              type="submit"
+              style="margin-right: 30px"
+            >
+              <img src="/img/02_lupa.png" alt="Search" style="height: 30px" />
+            </button>
+            <button
+              class="btn btn-primary"
+              type="button"
+              style="
+                height: 40px;
+                margin-left: 5px;
+                width: 230px;
+                margin-right: 5px;
+              "
+            >
+              Iniciar sesión
+            </button>
+            <button
+              type="button"
+              class="btn btn-success"
+              style="margin-left: 5px; height: 40px; width: 230px"
+            >
+              Registrate
+            </button>
+          </form>
+        </div>
+      </nav>
+    </header>
+    <nav
+      class="navbar navbar-expand-lg bg-body-success"
+      style="background: #0a530e"
+    >
+      <div class="container-fluid g-0">
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav justify-content-between px-3">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"> Catalogo </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Recursos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Servicios</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Horarios</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Noticias</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <main>
+      <section class="principal">
+        <div class="container-fluid">
+          <div class="row">
+            <div id="text" class="col">
+              <p style="color: #181887">
+                <b>Conocimiento sin límites</b>
+              </p>
+              <h1 style="color: black; font-size: 60px">
+                <b>Tu biblioteca,</b>
+              </h1>
+              <h1 style="color: #0a530e; font-size: 60px">
+                <b>siempre contigo</b>
+              </h1>
+              <h2 style="color: black">
+                Accede a libros, articulos, recursos y más,<br />
+                desde cualquier lugar.
+              </h2>
+              <button
+                style="
+                  background-color: #0a530e;
+                  color: white;
+                  border-radius: 5px;
+                  width: 300px;
+                  height: 50px;
+                "
+              >
+                Explorar catalogo<img
+                  src="/img/06_flecha_explorar_catalogo.png"
+                  style="height: 30px"
+                />
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="secundaria">
+        <div class="container-fluid">
+          <div class="row" style="text-align: center">
+            <div
+              class="col"
+              style="
+                background-color: #dcf0ed;
+                border: 5px;
+                margin-left: 20px;
+                height: 200px;
+                padding-top: 15px;
+              "
+            >
+              <img src="/img/03_libro_abierto.png" style="height: 60px" />
+              <h3>Catalogo en linea</h3>
+              <p>Libros, tesis y articulos</p>
+              <img
+                src="/img/10_flecha_accesos_rapidos.png"
+                style="height: 20px"
+              />
+            </div>
+            <div
+              class="col"
+              style="
+                background-color: #def2f7;
+                border: 5px;
+                margin-left: 20px;
+                height: 200px;
+                padding-top: 15px;
+              "
+            >
+              <img src="/img/07_base_de_datos.png" style="height: 60px" />
+              <h3>Recursos digitales</h3>
+              <p>Bases de datos y e-books</p>
+              <img
+                src="/img/10_flecha_accesos_rapidos.png"
+                style="height: 20px"
+              />
+            </div>
+            <div
+              class="col"
+              style="
+                background-color: #f4dee1;
+                border: 5px;
+                margin-left: 20px;
+                height: 200px;
+                padding-top: 15px;
+              "
+            >
+              <img src="/img/08_calendario.png" style="height: 60px" />
+              <h3>Horario y espacios</h3>
+              <p>Consulta nuestros servicios y horarios</p>
+              <img
+                src="/img/10_flecha_accesos_rapidos.png"
+                style="height: 20px"
+              />
+            </div>
+            <div
+              class="col"
+              style="
+                background-color: #ead9ef;
+                border: 5px;
+                margin-left: 20px;
+                height: 200px;
+                padding-top: 15px;
+                margin-right: 20px;
+              "
+            >
+              <img src="/img/09_audifonos.png" style="height: 66px" />
+              <h3>Solicita tu servicio</h3>
+              <p>Prestamos, asesorías y más</p>
+              <img
+                src="/img/10_flecha_accesos_rapidos.png"
+                style="height: 20px"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="terciaria">
+        <div class="container-fluid">
+          <div class="row">
+            <h3 style="color: #181887"><b>Recursos destacados</b></h3>
+            <div id="card-recursos" class="row">
+              <div
+                class="card mb-3"
+                style="max-width: 400px; margin-left: 20px; padding-top: 15px; color: rgb(24, 24, 122);"
+              >
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img
+                      src="/img/01_libro_clean_code.png"
+                      class="img-fluid rounded-start"
+                      alt="clean code"
+                    />
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body" style="color: rgb(24, 24, 122)">
+                      <h5 class="card-title"><b>Clean code</b></h5><br>
+                      <p class="card-text">Robert C. Martin</p>
+                      <button
+                        type="button"
+                        class="btn btn-primary"
+                        style="margin-left: 5px; height: 40px; width: 150px"
+                      >
+                        Programación
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div
+                class="card mb-3"
+                style="max-width: 400px; margin-left: 20px; padding-top: 15px; color: rgb(24, 24, 122);"
+              >
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img
+                      src="/img/02_libro_metodologia_investigacion.png"
+                      class="img-fluid rounded-start"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body" style="color: rgb(24, 24, 122)">
+                      <h5 class="card-title">
+                        <b>Metodología de la investigación</b>
+                      </h5>
+                      <p class="card-text">Roberto Hernández</p>
+                      <button
+                        type="button"
+                        class="btn btn-primary"
+                        style="margin-left: 5px; height: 40px; width: 150px"
+                      >
+                        Investigación
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div
+                class="card mb-3"
+                style="max-width: 400px; margin-left: 20px; padding-top: 15px; color: rgb(24, 24, 122);"
+              >
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img
+                      src="/img/03_libro_inteligencia_artificial.png"
+                      class="img-fluid rounded-start"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title"><b>Inteligencia Artificial</b></h5>
+                      <p class="card-text">Stuart Russell</p>
+                      <button
+                        type="button"
+                        class="btn btn-primary"
+                        style="margin-left: 5px; height: 40px; width: 150px"
+                      >
+                        Tecnología
+                      </button> 
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <br>
+      <section>
+        <div class="container-fluid">
+          <div class="row">
+            <h3 style="color: #181887"><b>Novedades</b></h3>
+            <br>
+            <div id="card-recursos" class="row">
+              <div class="card" style="max-width: 400px; margin-left: 20px; padding-top: 15px;">
+                <img src="/img/04_novedad_nuevos_recursos_digitales.png" class="card-img-top" alt="..." />
+                <div class="card-body">
+                  <p class="card-text"><small class="text-body-secondary">12 de agosto de 2026</small></p>
+                  <p class="card-text">
+                    Nuevos recursos digitales disponibles
+                  </p>
+                </div>
+              </div>
+
+              <div class="card" style="max-width: 400px; margin-left: 20px; padding-top: 15px;">
+                <img src="/img/05_novedad_taller_busqueda_informacion.png" class="card-img-top" alt="..." />
+                <div class="card-body">
+                  <p class="card-text"><small class="text-body-secondary">5 de agosto de 2026</small></p>
+                  <p class="card-text">
+                    Taller: Busqueda de información academica
+                  </p>
+                </div>
+              </div>
+
+              <div class="card" style="max-width: 400px; margin-left: 20px; padding-top: 15px;">
+                <img src="/img/06_novedad_recomendaciones_lectura.png" class="card-img-top" alt="..." />
+                <div class="card-body">
+                  <p class="card-text"><small class="text-body-secondary">28 de julio de 2026</small></p>
+                  <p class="card-text">
+                    Recomendaciones de lectura para este semestre
+                  </p>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+  <footer class="footer"  style="text-align: center; background-color: #14350f; color: white; height: 50px;">
+    <hr>
+   <p>&copy; 2026 BiblioCECAR. Todos los derechos reservados.</p>
+  </footer>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"
+  ></script>
+</html>
